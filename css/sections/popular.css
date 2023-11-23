@@ -24,7 +24,7 @@
     max-width: 100%;
     overflow-x: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     gap: 24px;
 }
 
@@ -51,7 +51,7 @@
     object-fit: contain;
 }
 
-.active {
+.popular-foods__filter-btn.active {
     background: #fff;
     color: var(--primary-color);
 }
