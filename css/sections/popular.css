@@ -21,10 +21,12 @@
 
 .popular-foods__filters {
     margin-top: 48px;
+    margin-left: 0;
     max-width: 100%;
     overflow-x: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 24px;
 }
 
